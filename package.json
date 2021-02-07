@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Hamza Mahmood",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "patch-package": "^6.2.2"
+  }
+}
